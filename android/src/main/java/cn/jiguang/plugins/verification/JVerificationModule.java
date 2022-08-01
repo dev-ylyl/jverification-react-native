@@ -6,6 +6,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.ImageButton;
 import android.view.ViewGroup;
+import android.graphics.Color;
 
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactRootView;
