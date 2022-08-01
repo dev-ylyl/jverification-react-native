@@ -467,6 +467,7 @@ public class JVerificationModule extends ReactContextBaseJavaModule {
                 //自定义返回按钮示例 
                 ImageButton sampleReturnBtn = new ImageButton(reactContext);
                 sampleReturnBtn.setImageResource(R.drawable.umcsdk_return_bg);
+                sampleReturnBtn.setBackgroundColor(Color.TRANSPARENT);
                 RelativeLayout.LayoutParams returnLP = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
                 // 返回按钮样式
                 ReadableArray array = readableMap.hasKey(JConstans.PRIVACY_CLOSE_THEME) ? readableMap.getArray(JConstans.PRIVACY_CLOSE_THEME) : null;
